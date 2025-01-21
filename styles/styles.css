@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #131313;
+  padding: 0;
+}
+
+header {
+  background-color: #1f1f1f;
+}
+
+nav ul {
+  list-style: none;
+}
+
+
+main {
+  padding-top: 80px; /* Adjust based on navbar height */
+}
+
+
+/* Set the image container */
+.spinning-image {
+    width: 20rem; /* Adjust size as needed */
+    height: 20rem;
+    border-radius: 50%; /* Optional: makes the image circular */
+    overflow: hidden; /* Ensures the image is contained within the container */
+    animation: spinSideways 10s linear infinite; /* Apply the sideways spin animation */
+  }
+
+  /* The sideways spinning animation */
+  @keyframes spinSideways {
+    0% {
+      transform: rotateY(0deg); /* Start without rotation */
+    }
+    100% {
+      transform: rotateY(360deg); /* Rotate 360 degrees along the Y-axis */
+    }
+  }
+
+  /* Optional: Styling for the image itself */
+  .spinning-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the container */
+  }
+
+  @keyframes scrollText {
+    0% {
+      transform: translateX(10%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .scrolling-text {
+    animation: scrollText 10s linear infinite;
+  }
