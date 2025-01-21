@@ -7,7 +7,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Zachwifhat</title>
   </head>
-  <body class="text-gray-200 h-screen">
+  <body class="text-gray-200 h-screen" onload="playAudio()">
     <header class="flex items-center justify-around py-3">
       <div class="flex items-center justify-center">
         <img
@@ -126,7 +126,7 @@
         class="flex flex-col md:flex-row items-center justify-around py-5 md:ml-12 gap-5 gap-3"
       >
         <div class="flex flex-col items-center md:items-left gap-3">
-            <div class="px-3 md:py-2 md:px-3 rounded-full">
+          <div class="px-3 md:py-2 md:px-3 rounded-full">
             <h1 class="text-5xl font-bold text-gray-300">$Zachwifhat</h1>
           </div>
           <p class="text-xl w-full md:w-2/3 leading-6">
@@ -226,12 +226,18 @@
           </span>
         </div>
       </section>
-      <audio
-        type="audio/mp3"
-        src="./media/Endor - Pump It Up (official video) [TubeRipper.com].mp3"
-        autoplay
-        loop
-      ></audio>
     </footer>
+    <embed src="./media/Endor - Pump It Up (official video) [TubeRipper.com].mp3" autostart></embed>
+    
+    <!-- Audio Element -->
+    <audio id="backgroundAudio" type="audio/mp3" src="./media/Endor - Pump It Up (official video) [TubeRipper.com].mp3" loop></audio>
+
+    <script>
+      // JavaScript function to trigger audio on page load
+      function playAudio() {
+        var audio = document.getElementById('backgroundAudio');
+        audio.play();
+      }
+    </script>
   </body>
 </html>
