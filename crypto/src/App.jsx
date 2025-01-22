@@ -10,14 +10,17 @@ import Content from "./component/Content";
 const App = () => {
   return (
     <div className="bg-gold">
-      <WelcomePopup coin="coin"/>
-      <Header/>
-      <HeaderMobile/>
+      <WelcomePopup coin="coin" />
+      <Header />
+      <HeaderMobile />
       <BackgroundAudio />
-      <Hero/>
-      <TextCarousel/>
+      <Hero />
+      <TextCarousel />
       <Content />
-      <Footer/>
+      <TextCarousel />
+      <TextCarousel />
+      <TextCarousel />
+      <Footer />
     </div>
   );
 };

@@ -8,3 +8,10 @@ body {
     color: black;
 }
 
+.scrolling-text {
+    animation: scrollText 10s linear infinite;
+  }
+
+  .animate-marquee {
+    animation: marquee 15s linear infinite; 
+  }

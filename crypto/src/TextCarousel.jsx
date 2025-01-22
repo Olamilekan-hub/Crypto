@@ -6,8 +6,8 @@ const TextCarousel = () => {
       id="text-carousel"
       className="z-50 w-full py-3 bg-[gold] border-2 border-gray-900"
     >
-      <div className="relative overflow-hidden">
-        <div className="flex text-xl font-bold text-gray-900 whitespace-nowrap scrolling-text">
+      <div className="relative overflow-hidden scrolling-text">
+        <div className="flex text-xl font-bold text-gray-900 whitespace-nowrap scrolling-text animate-marquee animate-scrollText">
           <span className="mr-4">The Golden Era of Crypto</span>
           <span className="mr-4">The Golden Era of Crypto</span>
           <span className="mr-4">The Golden Era of Crypto</span>
