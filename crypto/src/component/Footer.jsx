@@ -7,7 +7,7 @@ const Footer = () => {
 
 
   return (
-    <footer className="bottom-0 left-0 w-screen pb-6 bg-[#1f1f1f]">
+    <footer className="bottom-0 left-0 w-screen pb-6 bg-[#ffe13a]">
       <hr className="border-t-2 border-gray-400" />
       <section className="flex items-center justify-between w-screen px-16 mt-3">
         <div className="flex">

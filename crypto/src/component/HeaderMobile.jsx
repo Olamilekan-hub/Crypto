@@ -13,7 +13,7 @@ const HeaderMobile = () => {
     <>
       <header className="md:hidden flex items-center justify-around py-3 bg-[#ffe13a] z-1">
         <div className="flex items-center justify-center">
-        <h1 className="px-3 py-2 text-2xl font-bold bg-gray-900 rounded-l-full rounded-br-full text-[gold]">TGEOC</h1>
+        <h1 className="px-3 py-2 text-2xl font-bold bg-gray-900 rounded-l-full rounded-br-full text-[gold]">$TGEOC</h1>
         </div>
 
         <button onClick={toggleMenu}>
@@ -27,7 +27,7 @@ const HeaderMobile = () => {
         <div className="h-screen fixed top-0 right-0 w-full sm:w-1/2 bg-[#ffe13a] border-l-gray-200 border-l-2 z-20">
           <div className="flex items-center justify-around py-3 md:hidden z-1">
             <div className="flex items-center justify-center">
-            <h1 className="px-3 py-2 text-2xl font-bold bg-gray-900 rounded-l-full rounded-br-full text-[gold]">TGEOC</h1>
+            <h1 className="px-3 py-2 text-2xl font-bold bg-gray-900 rounded-l-full rounded-br-full text-[gold]">$TGEOC</h1>
             </div>
 
             <button onClick={toggleMenu}>

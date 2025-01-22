@@ -3,7 +3,7 @@ const Header = () => {
     <>
       <header className="hidden md:flex items-center justify-around py-3 bg-[#ffe13a] z-1">
         <div className="flex items-center justify-center">
-          <h1 className="px-3 py-2 text-2xl font-bold bg-gray-900 rounded-l-full rounded-br-full text-[gold]">TGEOC</h1>
+          <h1 className="px-3 py-2 text-2xl font-bold bg-gray-900 rounded-l-full rounded-br-full text-[gold]">$TGEOC</h1>
         </div>
         <nav>
           <ul className="flex items-center gap-16 text-xl font-semibold font-bold text-gray-900 no-underline list-none">
