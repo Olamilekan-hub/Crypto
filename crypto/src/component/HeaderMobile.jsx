@@ -38,23 +38,23 @@ const HeaderMobile = () => {
       <hr className="flex border-t-2 border-gray-100 md:hidden " />
           <nav>
             <ul className="flex flex-col items-center gap-16 mt-8 text-xl font-semibold font-bold text-gray-900 no-underline list-none"> 
-              <li
+              <li onClick={toggleMenu}
                 id="home"
                 className="hover:bg-gray-900 hover:py-1.5 hover:px-3 hover:rounded-full hover:text-gray-200"
               >
                 <a href="#home">Home</a>
               </li>
-              <li
+              <li onClick={toggleMenu} 
                 id="about"
                 className="hover:bg-gray-900 hover:py-1.5 hover:px-3 hover:rounded-full hover:text-gray-200"
               >
                 <a href="#about">About</a>
               </li>
-              <li
+              <li onClick={toggleMenu}
                 id="contact"
                 className="hover:bg-gray-900 hover:py-1.5 hover:px-3 hover:rounded-full hover:text-gray-200"
               >
-                <a href="#contact">Contact</a>
+                <a href="https://x.com/" target="_blank" rel="noopener noreferrer">Contact</a>
               </li>
             </ul>
           </nav>
