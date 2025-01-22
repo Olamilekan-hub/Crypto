@@ -23,7 +23,7 @@ const Header = () => {
               id="contact"
               className="hover:bg-gray-900 hover:py-1.5 hover:px-3 hover:rounded-full hover:text-gray-200"
             >
-              <a href="#contact">Contact</a>
+              <a href="https://x.com/TGEOConSolana">Contact</a>
             </li>
           </ul>
         </nav>

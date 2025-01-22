@@ -16,7 +16,7 @@ const Footer = () => {
         </div>
         <div className="flex items-center gap-4 justiify-center">
           <LuWallet className="w-4 h-4" />
-          <a href="https://x.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://x.com/TGEOConSolana" target="_blank" rel="noopener noreferrer">
             <FaXTwitter className="w-4 h-4" />
           </a>
         </div>
