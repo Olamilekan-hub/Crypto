@@ -6,7 +6,7 @@ const Footer = () => {
 
   return (
     <footer className="bottom-0 left-0 w-full pb-6 bg-[#ffe13a]">
-      <hr className="border-t-2 border-gray-400" />
+      <hr className="border-t-2 border-gray-100" />
       <section className="flex items-center justify-between w-screen px-16 mt-3">
         <div className="flex">
           <span>&copy; {year}</span>
