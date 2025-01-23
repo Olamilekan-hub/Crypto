@@ -16,6 +16,7 @@ const App = () => {
       <BackgroundAudio />
       <Hero />
       <TextCarousel />
+      <TextCarousel />
       <Content />
       <TextCarousel />
       <TextCarousel />
