@@ -2,7 +2,7 @@ const Content = () => {
   return (
     <div className="flex flex-col items-center justify-center gap-5 mt-5">
       <h1 id="about" className="text-4xl font-bold ">WHAT IS THE GOLDEN ERA OF CRYPTO?</h1>
-      <div className="flex flex-col flex-grow gap-5 md:flex-row">
+      <div className="flex flex-col flex-grow gap-5 md:flex-row my-5">
       <p className="text-2xl font-semibold bg-gray-900 text-[gold] md:mx-3 py-4 px-12 rounded-xl text-center w-full">
         The Golden Era of Crypto refers to a new phase of growth and development
         within the cryptocurrency and blockchain space that goes beyond the
